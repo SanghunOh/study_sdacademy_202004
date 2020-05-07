@@ -2,8 +2,13 @@
   "canvas": {
     "width": 2000,
     "height": 2000,
+<<<<<<< HEAD
+    "scrollTop": 23,
+    "scrollLeft": 329,
+=======
     "scrollTop": 7,
     "scrollLeft": 133,
+>>>>>>> 9fb157ae50cf6abe9f595d47ad02b9b37c5e598a
     "show": {
       "tableComment": true,
       "columnComment": true,
@@ -347,7 +352,7 @@
           "active": false,
           "left": 68,
           "top": 60,
-          "zIndex": 318,
+          "zIndex": 330,
           "widthName": 66,
           "widthComment": 60
         },
@@ -636,6 +641,169 @@
         "id": "e90baabd-326e-40f8-868c-3a96c3f13d7b"
       },
       {
+<<<<<<< HEAD
+        "name": "CLOSURE_TIME",
+        "comment": "",
+        "columns": [
+          {
+            "name": "CLOSURE_TIME",
+            "comment": "",
+            "dataType": "TEXT",
+            "default": "",
+            "id": "369918bc-58b3-4ef5-86b7-48d18c433c81",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 92,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            }
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 81,
+          "top": 322,
+          "zIndex": 320,
+          "widthName": 92,
+          "widthComment": 60
+        },
+        "id": "61f6f82c-d98d-49ef-a972-51e0bebb5217"
+      },
+      {
+        "name": "DAY_OFF",
+        "comment": "휴무일",
+        "columns": [
+          {
+            "name": "DAYOFF_ID",
+            "comment": "",
+            "dataType": "TEXT",
+            "default": "",
+            "id": "ffec0c95-7c20-486c-89bd-cb932d2ad18b",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 69,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            }
+          },
+          {
+            "name": "OFF_DAY",
+            "comment": "",
+            "dataType": "TEXT",
+            "default": "",
+            "id": "64457d17-10a9-460b-b5b6-006b2a2f7125",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            }
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 105,
+          "top": 446,
+          "zIndex": 319,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "id": "4df3fc0c-9142-4b68-98aa-ab83cc9bf361"
+      },
+      {
+        "name": "BENEFIT_RANGE",
+        "comment": "",
+        "columns": [
+          {
+            "name": "RANGE_ID",
+            "comment": "",
+            "dataType": "TEXT",
+            "default": "",
+            "id": "e830ccff-a189-4684-9da6-1b599f06aa66",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 63,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            }
+          },
+          {
+            "name": "RANGE_NAME",
+            "comment": "",
+            "dataType": "TEXT",
+            "default": "",
+            "id": "cf55878b-f198-484c-bcf1-fcc88dd5dce7",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 87,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            }
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 1175,
+          "top": 328,
+          "zIndex": 328,
+          "widthName": 98,
+          "widthComment": 60
+        },
+        "id": "42ffe69c-6e4c-4d41-b3be-f0b8b1e794ac"
+      },
+      {
+=======
+>>>>>>> 9fb157ae50cf6abe9f595d47ad02b9b37c5e598a
         "name": "BENEFIT_MENU",
         "comment": "제공품목",
         "columns": [
