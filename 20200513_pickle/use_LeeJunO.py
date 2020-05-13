@@ -6,17 +6,17 @@ from packages.class_LeeJunO import T4
 #T1 기존값
 print("------------------------")
 print("T1")
-x1 = T1(3)
+x1 = T1(8)
 x1.getPredict()
 print("--------------------------")
 print("T2")
 #T2 기존값
-x2 = T2(1,3)
+x2 = T2(5,7)
 x2.getPredict()
 print("--------------------------")
 print("T3")
 #T3 기존값
-x3 = T3(1)
+x3 = T3(6)
 x3.getPredict()
 print("--------------------------")
 print("T4")
