@@ -14,6 +14,6 @@ x3.getPredict()
 import pickle
 
 pickle.dump(x2,open("./20200513_pickle/pickle_LeeJunO.pkl","wb"))
-x2_load = pickle.load(open("pickle_LeeJunO.pkl","rb"))
+x2_load = pickle.load(open("./20200513_pickle/pickle_LeeJunO.pkl","rb"))
 
 x2_load.getPredict()
