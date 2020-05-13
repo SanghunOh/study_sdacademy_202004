@@ -16,3 +16,12 @@ class Test3() :
         self.x2 = x2
     def getpredict(self):
         return print("predict Result : ",self.x1+self.x2)
+
+class Test4() :
+    def __init__(self,x1,x2):
+        self.x1 = x1
+        self.x2 = x2
+    def getpredict(self):
+        return print("predict Result : ",self.x1*-0.25+self.x2*3)
+
+
