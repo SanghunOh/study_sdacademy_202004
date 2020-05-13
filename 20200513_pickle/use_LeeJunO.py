@@ -1,6 +1,6 @@
-from packages_LeeJunO.class_LeeJunO import T1
-from packages_LeeJunO.class_LeeJunO import T2  
-from packages_LeeJunO.class_LeeJunO import T3 
+from packages.class_LeeJunO import T1
+from packages.class_LeeJunO import T2  
+from packages.class_LeeJunO import T3 
 
 x1 = T1(3)
 x1.getPredict()
