@@ -13,6 +13,6 @@ print("Predict Result (x=4, y=6):",val3.getPredict())
 
 
 import pickle
-pickle.dump(val1, open("./pickle_kimsohyeon","wb"))
-val1_pkl = pickle.load(open("./pickle_kimsohyeon","rb"))
+pickle.dump(val1, open("./pickle_kimsohyeon.pkl","wb"))
+val1_pkl = pickle.load(open("./pickle_kimsohyeon.pkl","rb"))
 print("Pickle import value :",val1_pkl.getPredict())
