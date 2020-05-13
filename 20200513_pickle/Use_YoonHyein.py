@@ -12,3 +12,8 @@ s1 = second(3,5)
 from packages.Class_YoonHyein import third
 t1 = third(3)
 # t1.innerPrint()
+
+# Fourth class use
+from packages.Class_YoonHyein import fourth
+f1 = fourth(3,5)
+# f1.innerPrint()
