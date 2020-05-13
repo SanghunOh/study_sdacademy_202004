@@ -21,3 +21,11 @@ class third:
         print(self.y)
     def innerPrint(self):
         print("The y is ", self.y, " (using Third function)")
+
+# class fourth:
+#     def __init__(self, x1=0, x2=2):
+#         self.y = 
+#     def getPredict(self):
+#         print(self.y)
+#     def innerPrint(self):
+#         print("The y is ", self.y, " (using fourth function)")

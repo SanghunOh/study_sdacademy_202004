@@ -1,14 +1,14 @@
 # First class use
 from packages.Class_YoonHyein import first
 f1 = first(3)
-print(f1.y)
+# f1.innerPrint()
 
 # Second class use
 from packages.Class_YoonHyein import second
 s1 = second(3,5)
-print(s1.y)
+# s1.innerPrint()
 
 # Third class use
 from packages.Class_YoonHyein import third
 t1 = third(3)
-print(t1.y)
+# t1.innerPrint()
