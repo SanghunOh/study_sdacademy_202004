@@ -21,10 +21,12 @@ class T3() :
 
 class T4() :
     
-    def __init__(self,x1,x2):
+    def __init__(self,x1=None,x2=None):
         self.x1 =x1
         self.x2 =x2        
-    def getPredict(self):
+    def getPredict(self,x1,x2):
+        self.x1=x1
+        self.x2=x2
         if(self.x1==0 or self.x1==1):
             return print("Predict Result : ",self.x2*3)
         elif(self.x1==2):
